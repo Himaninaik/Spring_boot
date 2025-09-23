@@ -1,4 +1,4 @@
-# 🏫 Student Management System (Spring Boot)
+#  Student Management System (Spring Boot)
 
 This is a **Spring Boot Student Management System** built as part of an assignment.  
 It performs full **CRUD (Create, Read, Update, Delete)** operations on Student data, connects to a **MySQL database**, and uses **Spring Boot best practices** like layered architecture, validation, and exception handling.
@@ -10,12 +10,12 @@ It performs full **CRUD (Create, Read, Update, Delete)** operations on Student d
 - Validations:
   - Name cannot be blank
   - Age must be positive
-  - Grade must follow format like `A`, `A+`, `B`, `C-`
+  - Grade must follow format like A, A+, B, C-
 - MySQL database integration using Spring Data JPA
 - Global exception handling
 - RESTful APIs tested with Postman
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - Java 17
 - Spring Boot 3.
 - Spring Web
