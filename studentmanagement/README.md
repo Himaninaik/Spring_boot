@@ -33,15 +33,15 @@ It performs full **CRUD (Create, Read, Update, Delete)** operations on Student d
 
 1. Clone the repository
 bash
-git clone https://github.com/Himaninaik/studentmanagement.git
+git clone https://github.com/Himaninaik/Spring_boot
 cd studentmanagement
 
 2. Configure MySQL
 Create a database in MySQL:
 sql
 CREATE DATABASE student_db;
-```
-3. Update `application.properties`
+
+3. Update application.properties
 properties
 spring.datasource.url=jdbc:mysql://localhost:3306/student_db
 spring.datasource.username=your_mysql_username
@@ -50,18 +50,16 @@ spring.datasource.password=your_mysql_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
-```
+
 
  4. Build & Run
 
 mvn clean install
 mvn spring-boot:run
-```
+
 
 If successful, app runs at:  
  http://localhost:8080
-
----
 
  API Endpoints
 
