@@ -33,7 +33,7 @@ It performs full **CRUD (Create, Read, Update, Delete)** operations on Student d
 
 1. Clone the repository
 bash
-git clone https://github.com/yourusername/studentmanagement.git
+git clone https://github.com/Himaninaik/studentmanagement.git
 cd studentmanagement
 
 2. Configure MySQL
