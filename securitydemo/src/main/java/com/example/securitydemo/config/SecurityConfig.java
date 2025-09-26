@@ -19,7 +19,7 @@ public class SecurityConfig {
         this.jwtFilter = jwtFilter;
     }
 
-    // Plain text password encoder (for assignment simplicity)
+    
     @Bean
     public PasswordEncoder passwordEncoder() {
         return NoOpPasswordEncoder.getInstance();
